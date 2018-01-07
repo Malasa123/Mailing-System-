@@ -1,0 +1,84 @@
+.fa-share-alt {
+    float: right;
+}
+
+.dash-box {
+    text-align: left;
+}
+
+#space {
+    margin-top: 4%;
+}
+
+.paddtellus {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #F2F2F2;
+    padding-right: 0px;
+}
+
+.more {
+    float: right;
+    text-decoration: underline;
+    margin-right: 2%;
+    cursor: pointer
+}
+
+#old {
+    background-color: #F2F2F2;
+    margin-bottom: 40px;
+}
+
+.paddContent {
+    margin-top: 1%;
+}
+
+.env {
+    font-size: 100px;
+}
+
+.fa-chevron-right {
+    margin: 100%;
+}
+
+.bigger {
+    height: 112px;
+}
+
+.biggerShare {
+    height: 350px;
+}
+
+.mes {
+    border: 1px black solid;
+}
+
+
+.bootompage {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.white {
+    background-color: white
+}
+
+#back {
+    background-color: #F7F7F7;
+}
+
+a {
+    margin-left: 2%
+}
+
+.dash-box {
+    text-align: center;
+}
+
+.iconsUp {
+    float: right;
+    font-size: 75px;
+    color: #BAB8B8;
+    margin-top: 12px;
+    margin-right: 12px;
+}

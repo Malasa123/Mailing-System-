@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/Style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a4cce1b5d7f1a001224cf71&product=sop' async='async'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body id="back">
+    <div class="row">
+        <div class="panel-body">
+            <div class="col-md-4">
+                <i class="fa fa-clock-o" style="float:right;font-size:75px;color:#BAB8B8;margin-top:12px;margin-right:12px" aria-hidden="true"></i>
+                <div class="well dash-box" style="background-color:white;text-align:left">
+                    <h2 id="time"></h2>
+                    <h4>Time</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-comments-o" style="float:right;font-size:75px;color:#BAB8B8;margin-top:12px;margin-right:12px" aria-hidden="true"></i>
+                <div class="well dash-box" style="background-color:white;text-align:left">
+                    <h2 id="ip"></h2>
+                    <h4>Your IP</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-language" style="float:right;font-size:75px;color:#BAB8B8;margin-top:12px;margin-right:12px" aria-hidden="true"></i>
+                <div class="well dash-box" style="background-color:white;text-align:left">
+                    <h2 id="lang"></h2>
+                    <h4>language</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-body row">
+        <div class="col-md-7" style="background-color:white">
+
+            <h4>Answers</h4>
+            <div class="row mes">
+                <div class="col-md-2"> <i class="fa fa-envelope-o env" style="font-size:75px;margin:0" aria-hidden="true"></i></div>
+                <div class="col-md-7 paddContent">
+                    <div>
+                        <b>HP </b> - Expirience Developer
+                    </div>
+                    <div><b>Congratulation, your'e hired ! </b> Today <span class="badge">New</span></div>
+
+                </div>
+                <div class="row col-md-3 paddtellus tellus" style="padding-left:3px">
+                    <div class="col-md-10 text" style="padding-left:0px;padding-right:0px">
+                        Tell us About your Codex recruiting process
+                    </div>
+
+                    <div class="col-md-2">
+                        <i style="margin-top:16px;" class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row mes" id="old"> <a>5 older Answers</a></div>
+
+            <h4>Interviews</h4>
+            <div class="row mes ">
+                <div class="col-md-2"> <i class="fa fa-envelope-o env" style="font-size:75px;margin:0" aria-hidden="true"></i></div>
+                <div class="col-md-7 paddContent">
+                    <div>
+                        Expirience Developer UX Architect
+                    </div>
+                    <div><b>Youve been called for a first interview</b> Yesterday <span class="badge">New</span></div>
+                    <div>Dear Applicant, we received your resume through the Codex system and we are glad to inform you that we wish to intereview you. in the next few days ..</div>
+                    <span class="more">more</span>
+                </div>
+                <div class="row col-md-3 paddtellus tellus" style="padding-left:3px">
+                    <div class="col-md-10 text" style="padding-left:0px;padding-right:0px">
+                        Tell us About your Codex recruiting process
+                    </div>
+                    <div class="col-md-2">
+                        <i style="margin-top:16px;" class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </div>
+                    <input type="text" name="checkin" id="datepicker1" placeholder="Schedueld date ?" />
+                </div>
+            </div>
+
+            <div class="row mes">
+                <div class="col-md-2"> <i class="fa fa-envelope-o env" style="font-size:75px;margin:0" aria-hidden="true"></i></div>
+                <div class="col-md-7 paddContent">
+                    <div>
+                        Expirience Developer UX Architect
+                    </div>
+                    <div><b>Youve been called for a first interview</b> Yesterday <span class="badge">New</span></div>
+                    <div>Dear Applicant, we received your resume through the Codex system and we are glad to inform you that we wish to intereview you. in the next few days ..</div>
+                    <span class="more">more</span>
+                </div>
+                <div class="row col-md-3 paddtellus tellus" style="padding-left:3px">
+                    <div class="col-md-10 text" style="padding-left:0px;padding-right:0px">
+                        Tell us About your Codex recruiting process 1
+                    </div>
+
+                    <div class="col-md-2">
+                        <i class="fa fa-chevron-right" style="margin-top:16px;" aria-hidden="true"></i>
+                    </div>
+                    <div style="border-top-color:white"></div>
+                    <input type="text" name="checkin" id="datepicker2" placeholder="Schedueld date ?" />
+
+                </div>
+            </div>
+
+            <div class="row mes">
+                <div class="col-md-2"> <i class="fa fa-envelope-o env" style="font-size:75px;margin:0" aria-hidden="true"></i></div>
+                <div class="col-md-7 paddContent">
+                    <div>
+                        Expirience Developer UX Architect
+                    </div>
+                    <div><b>Youve been called for a first interview</b> Yesterday <span class="badge">New</span></div>
+                    <div>Dear Applicant, we received your resume through the Codex system and we are glad to inform you that we wish to intereview you. in the next few days ..</div>
+                    <span class="more">more</span>
+                </div>
+                <div class="row col-md-3 paddtellus tellus" style="padding-left:3px">
+                    <div class="col-md-10 text" style="padding-left:0px;padding-right:0px">
+                        Tell us About your Codex recruiting process
+                    </div>
+
+                    <div class="col-md-2">
+                        <i class="fa fa-chevron-right" style="margin-top:16px;" aria-hidden="true"></i>
+                    </div>
+                    <input type="text" name="checkin" id="datepicker3" placeholder="Schedueld date ?" />
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <br /><div class="well dash-box bigger">
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="fa fa-user-circle-o" style="font-size:52px;margin:0" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <div>
+                            <b>Liat Ben Zvi</b>
+                        </div>
+                        <div>Your recruitment counsel</div>
+                    </div>
+                </div>
+
+                <div class="row" id="space">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <i class="fa fa-phone" aria-hidden="true">Phone</i>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-envelope" aria-hidden="true">Email</i>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+
+            <div class="well dash-box bigger">
+                <div class="row">
+                    <b style="float:left">Search Job listing</b> <br /><br />
+                    <span style="float:left">  Favorites <span style="background-color:#0099FF; float:left; margin-left:3px" class="badge"> 5 </span></span>
+                    <span style="float:left"> Relevant Jobs   <span style="background-color:#0099FF;float:left" class="badge"> 23 </span>  </span>
+                </div>
+            </div>
+
+            <div class="well dash-box biggerShare" style="text-align:left">
+                <div class="row">
+                    <div><b>Share job listing</b> <i style="float:right" class="fa fa-bullhorn" aria-hidden="true"></i> </div> <br />
+                    <div>
+                        <b>Entry Level Intellectual Property  Attorney</b>
+                    </div><br />
+                    <div>Danish fontina chedar hallomi. Croque monsieur everyone loves airedale the big</div><br />
+                    <i class="fa fa-star" aria-hidden="true"> <b>4.5</b> </i>
+                    <i style="float:right" class="fa fa-share-alt" id="share1" aria-hidden="true"></i>
+
+                    <div id="sharetool1">
+                        <div class="sharethis-inline-share-buttons"></div>
+                    </div>
+                </div>
+                <hr style="color:white" />
+                <div class="row">
+                    <div>
+                        <b>Staff Attorney</b>
+                    </div>
+                    <div>Mascarpone who moved my cheese stilton.</div>
+                    <span>Port Sault cheese and wine edam taleggio</span>
+
+                </div><br />
+                <i class="fa fa-star" aria-hidden="true"><b>4</b> </i>
+                <i style="float:right" class="fa fa-share-alt" id="share2" aria-hidden="true"></i>
+                <div id="sharetool2">
+                    <div class="sharethis-inline-share-buttons"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"> </script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"> </script>
+
+    <script src="JS/codexScript.js"></script>
+</body>
+</html>
+
